@@ -8,9 +8,11 @@
     "start": "next start",
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
-    "eslint": "npx eslint -c eslint.config.mjs"
+    "eslint": "npx eslint -c eslint.config.mjs",
+    "prepare": "husky"
   },
   "dependencies": {
+    "husky": "^9.1.7",
     "next": "16.0.1",
     "path": "^0.12.7",
     "prettier": "^3.6.2",
